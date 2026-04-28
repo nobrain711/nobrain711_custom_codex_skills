@@ -13,6 +13,13 @@ Use these locations:
 - Skills: `.agents/skills/<skill-name>/`
 - Hooks: `.agents/hooks/<hook-name>/`
 
+## Session Start Rules
+
+- At the start of every session in this project, read `log.md` before planning or editing.
+- If `log.md` does not exist, create it with a short active-log header before continuing.
+- Use `log.md` as the first source for recent project decisions, pending work, and context from earlier sessions.
+- Do not archive or reset `log.md` during session start; weekly rollover is handled by the chat-log hook.
+
 ## Skill Rules
 
 - Use lowercase hyphenated skill names.

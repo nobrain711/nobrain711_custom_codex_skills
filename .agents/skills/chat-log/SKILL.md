@@ -11,6 +11,8 @@ Keep important project conversation history in `log.md` first, then archive it w
 
 ## Rules
 
+- At the start of every project session, read `log.md` before planning or editing.
+- If `log.md` is missing, create it with a short active-log header.
 - Store the active chat log at project root `log.md`.
 - Keep weekly archives under `logs/<iso-week-year>/W<iso-week-number>.md`.
 - Treat Monday 00:00 as the rollover time for the week that ended on Sunday.
