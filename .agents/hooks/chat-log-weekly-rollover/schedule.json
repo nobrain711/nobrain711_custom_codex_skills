@@ -1,0 +1,11 @@
+{
+  "name": "chat-log-weekly-rollover",
+  "description": "Archive log.md into logs/<iso-week-year>/W<iso-week-number>.md every Monday at 00:00.",
+  "timezone": "local",
+  "trigger": {
+    "type": "weekly",
+    "dayOfWeek": "Monday",
+    "time": "00:00"
+  },
+  "command": "powershell -ExecutionPolicy Bypass -File .\\.agents\\hooks\\chat-log-weekly-rollover\\scripts\\rollover-chat-log.ps1"
+}

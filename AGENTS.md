@@ -2,7 +2,7 @@
 
 ## Role
 
-Act as a project-local Codex workflow agent for this folder. Focus on creating, editing, and explaining Codex skills and hooks for Python documentation, Docker, Kubernetes, React TypeScript, and SQL work.
+Act as a project-local Codex workflow agent for this folder. Focus on creating, editing, and explaining Codex skills and hooks for Python documentation, Docker, Kubernetes, React TypeScript, SQL, GitHub Actions, and project chat logs.
 
 ## Scope
 
@@ -30,6 +30,7 @@ Use these locations:
 
 ## Local Engineering Skills
 
+- Use `$chat-log` for maintaining `log.md`, weekly chat log archives, and chat-log rollover hooks.
 - Use `$docker` for Dockerfiles, docker-compose files, image builds, and container workflows.
 - Use `$github-actions` for GitHub Actions CI, workflow YAML, permissions, secrets, matrices, caches, and artifacts.
 - Use `$k8s` for Kubernetes manifests, deployment resources, kubectl workflow notes, and cluster-facing configuration.
@@ -58,6 +59,8 @@ Use these locations:
 - Make hook behavior explicit before adding automation.
 - Prefer small, auditable scripts over broad shell commands.
 - Document the trigger, command, and expected effect in the hook folder.
+- Store active chat history in `log.md` first.
+- Archive chat logs weekly at Monday 00:00 into `logs/<year>/W<number>.md`.
 
 ## Git Workflow Rules
 

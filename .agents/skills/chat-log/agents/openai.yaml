@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chat Log"
+  short_description: "Project chat logs and weekly archives"
+  default_prompt: "Use $chat-log to maintain log.md and weekly chat log archives."
