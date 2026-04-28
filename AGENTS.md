@@ -59,6 +59,36 @@ Use these locations:
 - Prefer small, auditable scripts over broad shell commands.
 - Document the trigger, command, and expected effect in the hook folder.
 
+## Git Workflow Rules
+
+- Keep `main` as the stable branch.
+- Create a domain branch before starting non-trivial work.
+- Use branch prefixes by work area:
+  - `python/<short-topic>` for Python documentation, tests, or Python examples.
+  - `react/<short-topic>` for React TypeScript work.
+  - `sql/<short-topic>` for SQL work.
+  - `docker/<short-topic>` for Docker work.
+  - `k8s/<short-topic>` for Kubernetes work.
+  - `github-actions/<short-topic>` for GitHub Actions workflow work.
+  - `docs/<short-topic>` for README or general documentation work.
+  - `skills/<short-topic>` for project-local skill or hook changes.
+- Use lowercase hyphenated branch topics.
+- Check `git status --short` before switching branches, committing, or pushing.
+
+## Commit Rules
+
+- Use Conventional Commits: `<type>(<scope>): <summary>`.
+- Keep summaries short, imperative, and lowercase after the type.
+- Prefer these types:
+  - `feat`: new skill, workflow, example, or user-visible capability.
+  - `fix`: bug fix or correction.
+  - `docs`: README, comments, docstrings, or documentation-only changes.
+  - `test`: test code or test fixtures.
+  - `chore`: repository maintenance, cleanup, config, or tooling.
+  - `refactor`: behavior-preserving restructuring.
+- Use scopes that match the work area, such as `python`, `react`, `sql`, `docker`, `k8s`, `github-actions`, `skills`, or `readme`.
+- Do not mix unrelated domains in one commit unless the user explicitly asks for a combined change.
+
 ## Working Style
 
 - Inspect current files before changing them.
