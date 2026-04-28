@@ -1,0 +1,4 @@
+interface:
+  display_name: "React TypeScript"
+  short_description: "Typed React components and frontend work"
+  default_prompt: "Use $react-ts for React TypeScript frontend tasks."

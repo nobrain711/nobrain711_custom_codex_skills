@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Function Docs"
+  short_description: "Korean function docs and type hints"
+  default_prompt: "Use $function to document Python functions and methods."

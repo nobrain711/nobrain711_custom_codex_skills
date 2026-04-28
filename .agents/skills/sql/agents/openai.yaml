@@ -1,0 +1,4 @@
+interface:
+  display_name: "SQL"
+  short_description: "SQL queries, schema, and migrations"
+  default_prompt: "Use $sql for SQL query, schema, and migration tasks."

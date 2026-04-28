@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docker"
+  short_description: "Dockerfiles and compose workflows"
+  default_prompt: "Use $docker for Dockerfile, compose, and container workflow tasks."

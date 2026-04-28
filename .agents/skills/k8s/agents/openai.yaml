@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kubernetes"
+  short_description: "Kubernetes manifests and workflows"
+  default_prompt: "Use $k8s for Kubernetes manifest and deployment tasks."

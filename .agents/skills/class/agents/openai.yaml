@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Class Docs"
+  short_description: "Korean class docstrings and types"
+  default_prompt: "Use $class to document Python classes."

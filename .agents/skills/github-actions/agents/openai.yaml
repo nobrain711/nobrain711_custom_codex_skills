@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Actions"
+  short_description: "GitHub Actions CI and workflow files"
+  default_prompt: "Use $github-actions for GitHub Actions workflow tasks."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Comments"
+  short_description: "Korean comments for Python code"
+  default_prompt: "Use $comment to add or improve Korean Python comments."

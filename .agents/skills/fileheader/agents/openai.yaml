@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Fileheader"
+  short_description: "Korean Python module docstrings"
+  default_prompt: "Use $fileheader to add or improve Python file-level docstrings."
