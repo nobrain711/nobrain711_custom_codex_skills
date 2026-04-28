@@ -72,7 +72,9 @@ Use these locations:
 ## Git Workflow Rules
 
 - Keep `main` as the stable branch.
-- Create a domain branch before starting non-trivial work.
+- Keep `dev` as the remote integration branch for pushed work.
+- Create and keep domain branches locally before starting non-trivial work.
+- Push completed local domain-branch work to remote `dev`, not to a same-named remote domain branch.
 - Use branch prefixes by work area:
   - `python/<short-topic>` for Python documentation, tests, or Python examples.
   - `react/<short-topic>` for React TypeScript work.
@@ -84,6 +86,7 @@ Use these locations:
   - `skills/<short-topic>` for project-local skill or hook changes.
 - Use lowercase hyphenated branch topics.
 - Check `git status --short` before switching branches, committing, or pushing.
+- When pushing a local domain branch, use `git push origin HEAD:dev` unless the user explicitly asks to publish the branch itself.
 
 ## Commit Rules
 
