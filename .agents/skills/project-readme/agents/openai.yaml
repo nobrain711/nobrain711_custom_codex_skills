@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project README"
+  short_description: "Repository README creation and updates"
+  default_prompt: "Use $project-readme to create or improve a project README."

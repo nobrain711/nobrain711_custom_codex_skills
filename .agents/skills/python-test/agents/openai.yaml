@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Test"
+  short_description: "Python pytest and unittest coverage"
+  default_prompt: "Use $python-test to create or improve Python tests."

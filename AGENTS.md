@@ -33,6 +33,8 @@ Use these locations:
 - Use `$docker` for Dockerfiles, docker-compose files, image builds, and container workflows.
 - Use `$github-actions` for GitHub Actions CI, workflow YAML, permissions, secrets, matrices, caches, and artifacts.
 - Use `$k8s` for Kubernetes manifests, deployment resources, kubectl workflow notes, and cluster-facing configuration.
+- Use `$project-readme` for repository README creation, setup instructions, usage documentation, project layout, and command documentation.
+- Use `$python-test` for Python pytest/unittest tests, fixtures, edge cases, regression tests, and filesystem behavior tests.
 - Use `$react-ts` for React TypeScript components, hooks, props, state, accessibility, and frontend typing.
 - Use `$sql` for SQL queries, migrations, schema documentation, joins, indexes, and database-facing code.
 
