@@ -26,4 +26,12 @@ jobs:
         run: python -m pip install --upgrade pip pytest
 
       - name: Run tests
-        run: python -m pytest
+        run: python -m pytest --junitxml=reports/pytest-results.xml
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pytest-results
+          path: reports/pytest-results.xml
+          if-no-files-found: error
